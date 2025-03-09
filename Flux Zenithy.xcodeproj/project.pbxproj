@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B736FDD12BBA80E400CA0A76 /* RoundChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = B736FDD02BBA80E400CA0A76 /* RoundChart.swift */; };
+		B736FDD32BBA8DE700CA0A76 /* BudgetChartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B736FDD22BBA8DE700CA0A76 /* BudgetChartModel.swift */; };
+		B736FDD52BBA8EE000CA0A76 /* PersonalBudgetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B736FDD42BBA8EE000CA0A76 /* PersonalBudgetViewModel.swift */; };
+		B736FDD82BBAA39600CA0A76 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B736FDD72BBAA39600CA0A76 /* ViewExtensions.swift */; };
+		B736FDDA2BBAA3D300CA0A76 /* CustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B736FDD92BBAA3D300CA0A76 /* CustomAlert.swift */; };
+		B736FDDC2BBAA5E100CA0A76 /* BorderRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = B736FDDB2BBAA5E100CA0A76 /* BorderRadius.swift */; };
+		B736FDDE2BBAC4BB00CA0A76 /* OtherExpenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B736FDDD2BBAC4BB00CA0A76 /* OtherExpenses.swift */; };
+		B736FDE02BBADA9C00CA0A76 /* OtherExpensesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B736FDDF2BBADA9C00CA0A76 /* OtherExpensesCell.swift */; };
+		B736FDE22BBAF22100CA0A76 /* CurrencyPairModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B736FDE12BBAF22100CA0A76 /* CurrencyPairModel.swift */; };
+		B736FDE42BBAF2A000CA0A76 /* CurrencyPairCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B736FDE32BBAF2A000CA0A76 /* CurrencyPairCell.swift */; };
+		B736FDE62BBAF2DE00CA0A76 /* AboutCurrencyPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = B736FDE52BBAF2DE00CA0A76 /* AboutCurrencyPair.swift */; };
+		B736FDE82BBAF5D800CA0A76 /* CurrencyPairView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B736FDE72BBAF5D800CA0A76 /* CurrencyPairView.swift */; };
+		B736FDEA2BBBCAEC00CA0A76 /* CalculatorEnterField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B736FDE92BBBCAEC00CA0A76 /* CalculatorEnterField.swift */; };
+		B736FDEC2BBBCC7700CA0A76 /* CalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B736FDEB2BBBCC7700CA0A76 /* CalculatorViewModel.swift */; };
+		B736FDEE2BBC12D100CA0A76 /* ResultOfCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B736FDED2BBC12D100CA0A76 /* ResultOfCalculation.swift */; };
+		B736FDF02BBC3E9C00CA0A76 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B736FDEF2BBC3E9C00CA0A76 /* SettingsViewModel.swift */; };
+		B736FDF22BBD23E700CA0A76 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B736FDF12BBD23E700CA0A76 /* Combine.swift */; };
+		B7BF8A5B2BB69677005745B9 /* Flux_ZenithyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BF8A5A2BB69677005745B9 /* Flux_ZenithyApp.swift */; };
+		B7BF8A5F2BB69679005745B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7BF8A5E2BB69679005745B9 /* Assets.xcassets */; };
+		B7BF8A622BB69679005745B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7BF8A612BB69679005745B9 /* Preview Assets.xcassets */; };
+		B7BF8A672BB69679005745B9 /* Flux_Zenithy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B7BF8A652BB69679005745B9 /* Flux_Zenithy.xcdatamodeld */; };
+		B7BF8A782BB69774005745B9 /* FluxWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BF8A772BB69774005745B9 /* FluxWebView.swift */; };
+		B7BF8A7A2BB69D22005745B9 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BF8A792BB69D22005745B9 /* SplashView.swift */; };
+		B7BF8A7C2BB69D74005745B9 /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BF8A7B2BB69D74005745B9 /* CoreData.swift */; };
+		B7BF8A7E2BB69E87005745B9 /* Flux_ZenithyAppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BF8A7D2BB69E87005745B9 /* Flux_ZenithyAppViewModel.swift */; };
+		B7BF8A802BB69F30005745B9 /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BF8A7F2BB69F30005745B9 /* SplashViewModel.swift */; };
+		B7BF8A822BB69F67005745B9 /* SplashProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BF8A812BB69F67005745B9 /* SplashProgress.swift */; };
+		B7BF8A842BB69FB8005745B9 /* BigValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BF8A832BB69FB8005745B9 /* BigValues.swift */; };
+		B7BF8A862BB6A0AC005745B9 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BF8A852BB6A0AC005745B9 /* OnboardingView.swift */; };
+		B7BF8A882BB6A0B7005745B9 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BF8A872BB6A0B7005745B9 /* CustomTabView.swift */; };
+		B7BF8A8A2BB6A360005745B9 /* OnboardingVIewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BF8A892BB6A360005745B9 /* OnboardingVIewModel.swift */; };
+		B7BF8A8C2BB6A394005745B9 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BF8A8B2BB6A394005745B9 /* Onboarding.swift */; };
+		B7BF8A8E2BB6A3B5005745B9 /* Trigger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BF8A8D2BB6A3B5005745B9 /* Trigger.swift */; };
+		B7BF8A902BB6A475005745B9 /* RoundImageDots.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BF8A8F2BB6A475005745B9 /* RoundImageDots.swift */; };
+		B7BF8A922BB6A4C9005745B9 /* OnboardingCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BF8A912BB6A4C9005745B9 /* OnboardingCellView.swift */; };
+		B7BF8A942BB6A52F005745B9 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BF8A932BB6A52F005745B9 /* CustomButton.swift */; };
+		B7BF8A962BB6C89F005745B9 /* PersonalBudget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BF8A952BB6C89F005745B9 /* PersonalBudget.swift */; };
+		B7BF8A982BB6C8B0005745B9 /* BudgetCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BF8A972BB6C8B0005745B9 /* BudgetCalculator.swift */; };
+		B7BF8A9A2BB6C8BB005745B9 /* FluxSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BF8A992BB6C8BB005745B9 /* FluxSettings.swift */; };
+		B7BF8A9C2BB6C9F6005745B9 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BF8A9B2BB6C9F6005745B9 /* Calculator.swift */; };
+		B7BF8A9E2BB6D78C005745B9 /* PersonalHeadBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BF8A9D2BB6D78C005745B9 /* PersonalHeadBoard.swift */; };
+		B7BF8AA22BB6DB80005745B9 /* PersonalChartBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BF8AA12BB6DB80005745B9 /* PersonalChartBoard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B736FDD02BBA80E400CA0A76 /* RoundChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundChart.swift; sourceTree = "<group>"; };
+		B736FDD22BBA8DE700CA0A76 /* BudgetChartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetChartModel.swift; sourceTree = "<group>"; };
+		B736FDD42BBA8EE000CA0A76 /* PersonalBudgetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalBudgetViewModel.swift; sourceTree = "<group>"; };
+		B736FDD72BBAA39600CA0A76 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		B736FDD92BBAA3D300CA0A76 /* CustomAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlert.swift; sourceTree = "<group>"; };
+		B736FDDB2BBAA5E100CA0A76 /* BorderRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderRadius.swift; sourceTree = "<group>"; };
+		B736FDDD2BBAC4BB00CA0A76 /* OtherExpenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherExpenses.swift; sourceTree = "<group>"; };
+		B736FDDF2BBADA9C00CA0A76 /* OtherExpensesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherExpensesCell.swift; sourceTree = "<group>"; };
+		B736FDE12BBAF22100CA0A76 /* CurrencyPairModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyPairModel.swift; sourceTree = "<group>"; };
+		B736FDE32BBAF2A000CA0A76 /* CurrencyPairCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyPairCell.swift; sourceTree = "<group>"; };
+		B736FDE52BBAF2DE00CA0A76 /* AboutCurrencyPair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCurrencyPair.swift; sourceTree = "<group>"; };
+		B736FDE72BBAF5D800CA0A76 /* CurrencyPairView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyPairView.swift; sourceTree = "<group>"; };
+		B736FDE92BBBCAEC00CA0A76 /* CalculatorEnterField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorEnterField.swift; sourceTree = "<group>"; };
+		B736FDEB2BBBCC7700CA0A76 /* CalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewModel.swift; sourceTree = "<group>"; };
+		B736FDED2BBC12D100CA0A76 /* ResultOfCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultOfCalculation.swift; sourceTree = "<group>"; };
+		B736FDEF2BBC3E9C00CA0A76 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		B736FDF12BBD23E700CA0A76 /* Combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combine.swift; sourceTree = "<group>"; };
+		B736FDF32BBD34C100CA0A76 /* Flux-Zenithy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Flux-Zenithy-Info.plist"; sourceTree = SOURCE_ROOT; };
+		B7BF8A572BB69677005745B9 /* Flux Zenithy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flux Zenithy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7BF8A5A2BB69677005745B9 /* Flux_ZenithyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flux_ZenithyApp.swift; sourceTree = "<group>"; };
+		B7BF8A5E2BB69679005745B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7BF8A612BB69679005745B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B7BF8A662BB69679005745B9 /* Flux_Zenithy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Flux_Zenithy.xcdatamodel; sourceTree = "<group>"; };
+		B7BF8A772BB69774005745B9 /* FluxWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluxWebView.swift; sourceTree = "<group>"; };
+		B7BF8A792BB69D22005745B9 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		B7BF8A7B2BB69D74005745B9 /* CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
+		B7BF8A7D2BB69E87005745B9 /* Flux_ZenithyAppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flux_ZenithyAppViewModel.swift; sourceTree = "<group>"; };
+		B7BF8A7F2BB69F30005745B9 /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
+		B7BF8A812BB69F67005745B9 /* SplashProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashProgress.swift; sourceTree = "<group>"; };
+		B7BF8A832BB69FB8005745B9 /* BigValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigValues.swift; sourceTree = "<group>"; };
+		B7BF8A852BB6A0AC005745B9 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B7BF8A872BB6A0B7005745B9 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		B7BF8A892BB6A360005745B9 /* OnboardingVIewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVIewModel.swift; sourceTree = "<group>"; };
+		B7BF8A8B2BB6A394005745B9 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		B7BF8A8D2BB6A3B5005745B9 /* Trigger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trigger.swift; sourceTree = "<group>"; };
+		B7BF8A8F2BB6A475005745B9 /* RoundImageDots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundImageDots.swift; sourceTree = "<group>"; };
+		B7BF8A912BB6A4C9005745B9 /* OnboardingCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCellView.swift; sourceTree = "<group>"; };
+		B7BF8A932BB6A52F005745B9 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		B7BF8A952BB6C89F005745B9 /* PersonalBudget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalBudget.swift; sourceTree = "<group>"; };
+		B7BF8A972BB6C8B0005745B9 /* BudgetCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetCalculator.swift; sourceTree = "<group>"; };
+		B7BF8A992BB6C8BB005745B9 /* FluxSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluxSettings.swift; sourceTree = "<group>"; };
+		B7BF8A9B2BB6C9F6005745B9 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		B7BF8A9D2BB6D78C005745B9 /* PersonalHeadBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalHeadBoard.swift; sourceTree = "<group>"; };
+		B7BF8AA12BB6DB80005745B9 /* PersonalChartBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalChartBoard.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7BF8A542BB69677005745B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B736FDD62BBAA38200CA0A76 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B736FDD72BBAA39600CA0A76 /* ViewExtensions.swift */,
+				B736FDDB2BBAA5E100CA0A76 /* BorderRadius.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B7BF8A4E2BB69677005745B9 = {
+			isa = PBXGroup;
+			children = (
+				B7BF8A592BB69677005745B9 /* Flux Zenithy */,
+				B7BF8A582BB69677005745B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7BF8A582BB69677005745B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7BF8A572BB69677005745B9 /* Flux Zenithy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7BF8A592BB69677005745B9 /* Flux Zenithy */ = {
+			isa = PBXGroup;
+			children = (
+				B736FDF32BBD34C100CA0A76 /* Flux-Zenithy-Info.plist */,
+				B736FDD62BBAA38200CA0A76 /* Extensions */,
+				B7BF8A6E2BB696B2005745B9 /* Services */,
+				B7BF8A742BB696F8005745B9 /* SubViews */,
+				B7BF8A732BB696EF005745B9 /* Cells */,
+				B7BF8A722BB696DD005745B9 /* MainView */,
+				B7BF8A712BB696D5005745B9 /* ViewModels */,
+				B7BF8A702BB696CC005745B9 /* Views */,
+				B7BF8A6F2BB696C7005745B9 /* Models */,
+				B7BF8A5A2BB69677005745B9 /* Flux_ZenithyApp.swift */,
+				B7BF8A5E2BB69679005745B9 /* Assets.xcassets */,
+				B7BF8A652BB69679005745B9 /* Flux_Zenithy.xcdatamodeld */,
+				B7BF8A602BB69679005745B9 /* Preview Content */,
+			);
+			path = "Flux Zenithy";
+			sourceTree = "<group>";
+		};
+		B7BF8A602BB69679005745B9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B7BF8A612BB69679005745B9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B7BF8A6E2BB696B2005745B9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B7BF8A772BB69774005745B9 /* FluxWebView.swift */,
+				B7BF8A7B2BB69D74005745B9 /* CoreData.swift */,
+				B7BF8A832BB69FB8005745B9 /* BigValues.swift */,
+				B736FDF12BBD23E700CA0A76 /* Combine.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B7BF8A6F2BB696C7005745B9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B7BF8A812BB69F67005745B9 /* SplashProgress.swift */,
+				B7BF8A8B2BB6A394005745B9 /* Onboarding.swift */,
+				B7BF8A8D2BB6A3B5005745B9 /* Trigger.swift */,
+				B736FDE12BBAF22100CA0A76 /* CurrencyPairModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B7BF8A702BB696CC005745B9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B7BF8A8F2BB6A475005745B9 /* RoundImageDots.swift */,
+				B7BF8A932BB6A52F005745B9 /* CustomButton.swift */,
+				B7BF8A9D2BB6D78C005745B9 /* PersonalHeadBoard.swift */,
+				B7BF8AA12BB6DB80005745B9 /* PersonalChartBoard.swift */,
+				B736FDD02BBA80E400CA0A76 /* RoundChart.swift */,
+				B736FDD22BBA8DE700CA0A76 /* BudgetChartModel.swift */,
+				B736FDD92BBAA3D300CA0A76 /* CustomAlert.swift */,
+				B736FDE92BBBCAEC00CA0A76 /* CalculatorEnterField.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B7BF8A712BB696D5005745B9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B7BF8A7D2BB69E87005745B9 /* Flux_ZenithyAppViewModel.swift */,
+				B7BF8A7F2BB69F30005745B9 /* SplashViewModel.swift */,
+				B7BF8A892BB6A360005745B9 /* OnboardingVIewModel.swift */,
+				B736FDD42BBA8EE000CA0A76 /* PersonalBudgetViewModel.swift */,
+				B736FDEB2BBBCC7700CA0A76 /* CalculatorViewModel.swift */,
+				B736FDEF2BBC3E9C00CA0A76 /* SettingsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B7BF8A722BB696DD005745B9 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				B7BF8A992BB6C8BB005745B9 /* FluxSettings.swift */,
+				B7BF8A972BB6C8B0005745B9 /* BudgetCalculator.swift */,
+				B7BF8A952BB6C89F005745B9 /* PersonalBudget.swift */,
+				B7BF8A872BB6A0B7005745B9 /* CustomTabView.swift */,
+				B7BF8A852BB6A0AC005745B9 /* OnboardingView.swift */,
+				B7BF8A792BB69D22005745B9 /* SplashView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		B7BF8A732BB696EF005745B9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B7BF8A912BB6A4C9005745B9 /* OnboardingCellView.swift */,
+				B736FDDF2BBADA9C00CA0A76 /* OtherExpensesCell.swift */,
+				B736FDE32BBAF2A000CA0A76 /* CurrencyPairCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B7BF8A742BB696F8005745B9 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				B7BF8A9B2BB6C9F6005745B9 /* Calculator.swift */,
+				B736FDDD2BBAC4BB00CA0A76 /* OtherExpenses.swift */,
+				B736FDE52BBAF2DE00CA0A76 /* AboutCurrencyPair.swift */,
+				B736FDE72BBAF5D800CA0A76 /* CurrencyPairView.swift */,
+				B736FDED2BBC12D100CA0A76 /* ResultOfCalculation.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7BF8A562BB69677005745B9 /* Flux Zenithy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7BF8A6A2BB69679005745B9 /* Build configuration list for PBXNativeTarget "Flux Zenithy" */;
+			buildPhases = (
+				B7BF8A532BB69677005745B9 /* Sources */,
+				B7BF8A542BB69677005745B9 /* Frameworks */,
+				B7BF8A552BB69677005745B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flux Zenithy";
+			productName = "Flux Zenithy";
+			productReference = B7BF8A572BB69677005745B9 /* Flux Zenithy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7BF8A4F2BB69677005745B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					B7BF8A562BB69677005745B9 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = B7BF8A522BB69677005745B9 /* Build configuration list for PBXProject "Flux Zenithy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7BF8A4E2BB69677005745B9;
+			productRefGroup = B7BF8A582BB69677005745B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7BF8A562BB69677005745B9 /* Flux Zenithy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7BF8A552BB69677005745B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7BF8A622BB69679005745B9 /* Preview Assets.xcassets in Resources */,
+				B7BF8A5F2BB69679005745B9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7BF8A532BB69677005745B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7BF8A982BB6C8B0005745B9 /* BudgetCalculator.swift in Sources */,
+				B7BF8A962BB6C89F005745B9 /* PersonalBudget.swift in Sources */,
+				B7BF8A9E2BB6D78C005745B9 /* PersonalHeadBoard.swift in Sources */,
+				B7BF8A9C2BB6C9F6005745B9 /* Calculator.swift in Sources */,
+				B7BF8A882BB6A0B7005745B9 /* CustomTabView.swift in Sources */,
+				B736FDD32BBA8DE700CA0A76 /* BudgetChartModel.swift in Sources */,
+				B7BF8A922BB6A4C9005745B9 /* OnboardingCellView.swift in Sources */,
+				B7BF8A942BB6A52F005745B9 /* CustomButton.swift in Sources */,
+				B736FDF02BBC3E9C00CA0A76 /* SettingsViewModel.swift in Sources */,
+				B7BF8A782BB69774005745B9 /* FluxWebView.swift in Sources */,
+				B7BF8A842BB69FB8005745B9 /* BigValues.swift in Sources */,
+				B7BF8AA22BB6DB80005745B9 /* PersonalChartBoard.swift in Sources */,
+				B7BF8A8A2BB6A360005745B9 /* OnboardingVIewModel.swift in Sources */,
+				B736FDF22BBD23E700CA0A76 /* Combine.swift in Sources */,
+				B7BF8A8E2BB6A3B5005745B9 /* Trigger.swift in Sources */,
+				B7BF8A7E2BB69E87005745B9 /* Flux_ZenithyAppViewModel.swift in Sources */,
+				B7BF8A862BB6A0AC005745B9 /* OnboardingView.swift in Sources */,
+				B7BF8A902BB6A475005745B9 /* RoundImageDots.swift in Sources */,
+				B736FDE82BBAF5D800CA0A76 /* CurrencyPairView.swift in Sources */,
+				B736FDEE2BBC12D100CA0A76 /* ResultOfCalculation.swift in Sources */,
+				B7BF8A672BB69679005745B9 /* Flux_Zenithy.xcdatamodeld in Sources */,
+				B7BF8A802BB69F30005745B9 /* SplashViewModel.swift in Sources */,
+				B736FDEC2BBBCC7700CA0A76 /* CalculatorViewModel.swift in Sources */,
+				B736FDDA2BBAA3D300CA0A76 /* CustomAlert.swift in Sources */,
+				B7BF8A9A2BB6C8BB005745B9 /* FluxSettings.swift in Sources */,
+				B736FDEA2BBBCAEC00CA0A76 /* CalculatorEnterField.swift in Sources */,
+				B736FDE62BBAF2DE00CA0A76 /* AboutCurrencyPair.swift in Sources */,
+				B736FDDE2BBAC4BB00CA0A76 /* OtherExpenses.swift in Sources */,
+				B7BF8A8C2BB6A394005745B9 /* Onboarding.swift in Sources */,
+				B7BF8A5B2BB69677005745B9 /* Flux_ZenithyApp.swift in Sources */,
+				B7BF8A7C2BB69D74005745B9 /* CoreData.swift in Sources */,
+				B736FDE22BBAF22100CA0A76 /* CurrencyPairModel.swift in Sources */,
+				B736FDDC2BBAA5E100CA0A76 /* BorderRadius.swift in Sources */,
+				B736FDE42BBAF2A000CA0A76 /* CurrencyPairCell.swift in Sources */,
+				B736FDD82BBAA39600CA0A76 /* ViewExtensions.swift in Sources */,
+				B736FDD12BBA80E400CA0A76 /* RoundChart.swift in Sources */,
+				B7BF8A7A2BB69D22005745B9 /* SplashView.swift in Sources */,
+				B7BF8A822BB69F67005745B9 /* SplashProgress.swift in Sources */,
+				B736FDD52BBA8EE000CA0A76 /* PersonalBudgetViewModel.swift in Sources */,
+				B736FDE02BBADA9C00CA0A76 /* OtherExpensesCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B7BF8A682BB69679005745B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7BF8A692BB69679005745B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7BF8A6B2BB69679005745B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Flux Zenithy/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Flux-Zenithy-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DF.Flux-Zenithy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7BF8A6C2BB69679005745B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Flux Zenithy/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Flux-Zenithy-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DF.Flux-Zenithy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7BF8A522BB69677005745B9 /* Build configuration list for PBXProject "Flux Zenithy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7BF8A682BB69679005745B9 /* Debug */,
+				B7BF8A692BB69679005745B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7BF8A6A2BB69679005745B9 /* Build configuration list for PBXNativeTarget "Flux Zenithy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7BF8A6B2BB69679005745B9 /* Debug */,
+				B7BF8A6C2BB69679005745B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B7BF8A652BB69679005745B9 /* Flux_Zenithy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B7BF8A662BB69679005745B9 /* Flux_Zenithy.xcdatamodel */,
+			);
+			currentVersion = B7BF8A662BB69679005745B9 /* Flux_Zenithy.xcdatamodel */;
+			path = Flux_Zenithy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B7BF8A4F2BB69677005745B9 /* Project object */;
+}
